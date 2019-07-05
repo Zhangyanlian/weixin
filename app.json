@@ -1,7 +1,11 @@
 {
   "pages": [
+    "pages/home/home",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+   
+    "pages/mine/mine",
+    "pages/project/project"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -9,5 +13,32 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#1296db",
+    "backgroundColor": "",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/project/project",
+        "text": "健身计划",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "个人中心",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ]
+  },  
+
   "sitemapLocation": "sitemap.json"
 }
